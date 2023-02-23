@@ -1,0 +1,179 @@
+    <!-- Footer -->
+
+
+</head>
+</body> 
+
+<html>
+<head>
+<style>
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+}
+
+</style>
+</head>
+<body>
+
+
+<footer>
+  <p> WELCOME TO RAMPAGEMENU<br>
+  <a href=""></a></p>
+</footer>
+
+</body>
+</html>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Installation')">Installation</button>
+  <button class="tablinks" onclick="openCity(event, 'Media')">Media</button>
+</div>
+
+
+<!-- Tab content -->
+
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home Page </p>
+</div>
+
+<div id="Installation" class="tabcontent">
+  <h3>Installation</h3>
+  <p>Installation Page</p>
+</div>
+
+<div id="Media" class="tabcontent">
+  <h3>Media</h3>
+  <p>Media Page</p>
+</div>
+
+
+<!-- Tab Links -->
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Installation')">Installation</button>
+  <button class="tablinks" onclick="openCity(event, 'Media')">Media</button>
+</div>
+
+
+<!-- Tab content -->
+
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home Page </p>
+</div>
+
+<div id="Installation" class="tabcontent">
+  <h3>Installation</h3>
+  <p>Installation Page</p>
+</div>
+
+<div id="Media" class="tabcontent">
+  <h3>Media</h3>
+  <p>Media Page</p>
+</div>
+
+
+<style>
+        body {
+          background-image: url('https://staticdelivery.nexusmods.com/mods/3024/images/233/233-1659008484-830053377.png');
+        }
+        </style>
+
+<style>
+  body {
+    background-image: url('https://staticdelivery.nexusmods.com/mods/3024/images/233/233-1659008484-830053377.png');
+    background-repeat: no-repeat;
+  }
+  </style>
+
+<style>
+  body {
+    background-image: url('https://staticdelivery.nexusmods.com/mods/3024/images/233/233-1659008484-830053377.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  </style>
+
+  body{
+  background-image: url('https://i.pinimg.com/originals/01/d7/17/01d7176e77aebf3b461562899efcf47f.gif');
+  background-size: cover;
+  
+  
+  
+  height: 100vh;
+  padding:0;
+  margin:0;
+}
+
+<table>
+  <thread>
+  <tr>
+   <th> Name </th>
+   <th> Description </th>
+  </tr>
+</thread> 
+<tbody> 
+
+
+  
+</tbody>
+ </table>
+
+
+/* Gif backround*/ 
+
+body{
+  background-image: url('https://i.pinimg.com/originals/8a/e1/04/8ae104a88d8fd8e5c4d1a9cbea4d4c96.gif');
+  background-size: cover;
+  
+  
+  
+  height: 100vh;
+  padding:0;
+  margin:0;
+}
+
+<!-- Rampage RDR2 Download Link-->
+
+<div style="text-align:center">    
+&nbsp;  &nbsp; <a href="https://www.nexusmods.com/reddeadredemption2/mods/233?tab=files" target="_blank" title="Takes you to the Rampage RDR2 download files page"> Rampage RDR2 Download link </a>
+<br> <br>
+
+<!-- Rampage GTA V Download Link-->
+
+
+&nbsp;  &nbsp; <a href="https://www.gta5-mods.com/scripts/rampage-trainer" target="_blank" title="Takes you to the Rampage GTA V Main page"> Rampage GTA V Download Link </a>
+
+<br> <br> 
+
+<!-- Rampage Community Discord Server-->
+
+
+&nbsp;  &nbsp; <a href="https://discord.gg/74WBpDeRVj" target="_blank" title="Takes you to the Rampage Community Discord Server"> Rampage Community Discord Server </a> 
+
+<br> <br> 
+
+
+<!-- Rampage Support Discord Server-->
+
+
+&nbsp;  &nbsp; <a href="https://discord.gg/aZQHkPEpFW" target="_blank" title="Takes you to the Rampage Support Discord Server"> Rampage Support Discord Server </a> 
+<br> <br>
+
+<!-- Changelogs-->
+
+&nbsp;  &nbsp; <a href="https://www.mediafire.com/file/a7pdl9w0sf4kiqf/Latest_Website_Changelogs.txt/file" target="_blank" title="Downloads the latest Changelogs for the website"> Latest Website Changelogs </a> 
+</div>
