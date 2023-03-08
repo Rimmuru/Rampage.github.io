@@ -1,3 +1,6 @@
+
+// Tab content 
+
 function openCity(evt, cityName) {
       // Declare all variables
       var i, tabcontent, tablinks;
@@ -28,8 +31,7 @@ function openCity(evt, cityName) {
         x.className = "topnav";
       }
     }
-     
-     //clock 
+     //clock
 
     window.addEventListener("load", () => {
       clock();
@@ -89,4 +91,42 @@ function openCity(evt, cityName) {
       }
     });
 
+    // Loading screen
+
    
+    const preloader = document.querySelector('.preloader');
+
+const fadeEffect = setInterval(() => {
+  // if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
+  if (!preloader.style.opacity) {
+    preloader.style.opacity = 1;
+  }
+  if (preloader.style.opacity > 0) {
+    preloader.style.opacity -= 0.1;
+  } else {
+    clearInterval(fadeEffect);
+  }
+}, 200);
+
+window.addEventListener('load', fadeEffect);
+
+
+$('.badge').on('click', function() {
+  $(this).hide();
+  localStorage.seen_badge = "true";
+});
+
+function submitted()
+{
+   var a = document.getElementById("name").value.trim();
+   document.getElementById("new").innerHTML=
+     a===""?"":"Thank you, " + a + ". " + "Click here to continue.";
+}
+
+
+$(".input_text").focus(function(){
+  $(this).prev('.fa').addclass('glowIcon')
+})
+$(".input_text").focusout(function(){
+  $(this).prev('.fa').removeclass('glowIcon')
+})
