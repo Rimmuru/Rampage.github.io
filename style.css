@@ -1,3 +1,6 @@
+
+
+
 li {
       font-family:"Brush Script MT", cursive;
       text-align: center;
@@ -189,7 +192,7 @@ li {
             background: red;
           }
           
-          .badge {
+          .notification .badge {
             position: absolute;
             top: -10px;
             right: -10px;
@@ -198,7 +201,6 @@ li {
             background: red;
             color: white;
           }
-
           
           
           
@@ -365,3 +367,18 @@ li {
   margin: 0 auto;
 }
 
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  width:100%;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}

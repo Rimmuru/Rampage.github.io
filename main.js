@@ -130,3 +130,11 @@ $(".input_text").focus(function(){
 $(".input_text").focusout(function(){
   $(this).prev('.fa').removeclass('glowIcon')
 })
+
+// browser online?
+
+
+var x = "Is the browser online? " + navigator.onLine;
+
+// Download 
+
