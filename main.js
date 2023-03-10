@@ -1,3 +1,51 @@
+// Console.log
+
+console.log("Initializing...")
+console.log("Waiting...")
+console.log("Initialized")
+console.log("Fetching data...")
+console.log("Waiting...")
+console.log("All your data belongs to us")
+console.log("Data fetched")
+console.log("Updating to the latest website version...")
+console.log("Updated to version 1.5")
+console.log("Injecting Html files...")
+console.log("Injecting Css files...")
+console.log("Injecting JavaScript files...")
+console.log("Injected")
+console.log("All your files belong to us...")
+for (let i = 0; i < 5; i++) {
+  console.count("Waiting...");
+}
+console.log("All files have been installed correctly enjoy your stay :)")
+
+const currentDate = new Date();
+const timestamp = currentDate.getTime();
+
+
+
+//console.error
+
+console.error
+
+Promise.any([ 
+  Promise.reject(new Error("Error found")), 
+]).catch(e => { 
+  console.log(e instanceof AggregateError); // true 
+  console.log(e.message);                   // "All Promises rejected" 
+  console.log(e.name);                      // "AggregateError" 
+  console.log(e.errors);                    // [ Error: "some error" ] 
+}); 
+
+try { 
+  var num = 10.123.toFixed(-1); 
+} catch (e) { 
+  console.error(e instanceof RangeError); // true 
+  console.error(e.message);               // argument must be between 0-100 
+  console.error(e.name);                  // RangeError 
+} 
+
+
 
 // Tab content 
 
@@ -136,5 +184,4 @@ $(".input_text").focusout(function(){
 
 var x = "Is the browser online? " + navigator.onLine;
 
-// Download 
 
