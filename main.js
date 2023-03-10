@@ -19,8 +19,7 @@ for (let i = 0; i < 5; i++) {
 }
 console.log("All files have been installed correctly enjoy your stay :)")
 
-const currentDate = new Date();
-const timestamp = currentDate.getTime();
+
 
 
 
